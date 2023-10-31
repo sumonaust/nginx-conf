@@ -1,0 +1,46 @@
+sudo apt install php php-xml php-curl
+
+sudo apt install zip unzip
+
+wget https://getcomposer.org/download/2.6.5/composer.phar
+
+chmod +x composer.phar
+ls -l
+
+sudo mv composer.phar /usr/local/bin/composer
+
+php artisan serve --host 0.0.0.0
+
+
+
+$ cp .env.example .env  
+$ php artisan key:generate  
+
+
+
+sudo systemctl status nginx
+
+nano sshkey.pem
+
+######################
+
+events {
+    #empty
+    }
+    
+    http {
+      
+        server {
+            listen 80;
+         
+            location / {
+                proxy_pass http://frontend;
+            }
+        }
+        
+          upstream frontend {
+            server 100.25.183.135:8000;
+            server 100.26.219.137:8000;
+        }
+        
+    }
