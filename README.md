@@ -105,7 +105,13 @@ pnpm run dev
 
 pnpm build
 
+pnpm preview
+
 pnpm preview --port 80
+
+pnpm preview --host --port 80
+
+curl ip
 
 cd /etc/nginx
 
