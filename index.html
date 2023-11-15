@@ -44,3 +44,25 @@ events {
         }
         
     }
+
+
+
+ --------------------------mysql---------------
+ u = admin
+p= fred8888
+
+db = laravel_app
+
+host = laravel-db.cygptatndavl.us-east-1.rds.amazonaws.com
+
+mysql -h laravel-db.cygptatndavl.us-east-1.rds.amazonaws.com -p 3306 -u admin -p
+
+SHOW DATABASES;
+
+CREATE DATABASES laravel_app;
+
+SHOW DATABASES
+
+EXIT
+
+php artisan migrate   
