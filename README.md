@@ -117,3 +117,8 @@ cd /etc/nginx
 
 sudo nginx -t
 sudo nginx -s reload
+
+----------------------
+
+Nginx-Laravel:
+https://github.com/nathanaellsaraiva/example-app/blob/main/ec2-deploy.md
