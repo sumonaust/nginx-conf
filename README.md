@@ -126,3 +126,8 @@ https://github.com/nathanaellsaraiva/example-app/blob/main/ec2-deploy.md
 
 Nginx-Django:
 https://wordspiner.xyz/deploy-a-django-application-on-ec2-instance-with-nginx/
+
+
+Rabitmq:
+https://www.youtube.com/watch?v=yijlKmVl7W0
+
